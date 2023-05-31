@@ -8,8 +8,8 @@ export default function RichTextAsset({ id, assets }) {
   const asset = assets?.find((asset) => asset.sys.id === id)
 
   if (asset?.url) {
-    return <div class="contentful-image-container">
-      <Image src={asset.url} layout="fill" alt={asset.description} loader={contentfulLoader}/>
+    return <div className="contentful-image-container">
+      <Image src={asset.url} width="400" height="400" alt={asset.description} loader={contentfulLoader}/>
     </div>
   }
 

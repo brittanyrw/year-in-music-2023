@@ -42,8 +42,7 @@ export default function Post({ post, morePosts, preview }) {
                 coverImage={post.albumCover.url}
                 date={post.releaseYear}
                 artist={post.artistName}
-                type={post.type}
-                language={post.language}
+                category={post.category}
               />
               <PostBody content={post.thoughts} />
             </article>

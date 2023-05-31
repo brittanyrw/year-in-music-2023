@@ -11,8 +11,7 @@ export default function albums({ posts }) {
             releaseYear={post.releaseYear}
             artistName={post.artistName}
             date={post.favoriteMonth}
-            type={post.type}
-            language={post.language}
+            category={post.category}
             slug={post.slug}
             favorite={post.favorite}
           />

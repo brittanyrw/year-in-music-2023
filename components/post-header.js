@@ -5,7 +5,7 @@ const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
 ];
 
-export default function PostHeader({ title, coverImage, date, artist, type, language }) {
+export default function PostHeader({ title, coverImage, date, artist, category, language }) {
   return (
     <>
       <div className="album-page-header">
@@ -15,8 +15,7 @@ export default function PostHeader({ title, coverImage, date, artist, type, lang
           <PostTitle>{title} ({date})</PostTitle>
           <p className="album-page-subtitle">{artist}</p>
           <ul className="music-labels">
-            {type?.map((item) => <li className="type" key={item}>{item}</li>)}
-            {language?.map((item) => <li className="language" key={item}>{item}</li>)}
+            {category?.map((item) => <li className="type" key={item}>{item}</li>)}
           </ul>
         </div>
       </div>
