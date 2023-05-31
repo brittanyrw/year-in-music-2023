@@ -6,7 +6,7 @@ export default function Footer() {
         <p>Built with Next.js and Contentful.</p>
       </div>
       <div className="footer-link">
-        <a href="">GitHub</a>
+        <a href="https://github.com/brittanyrw/year-in-music-2023" target="_blank">GitHub</a>
       </div>
     </footer>
   )
