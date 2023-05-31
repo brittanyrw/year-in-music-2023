@@ -6,7 +6,7 @@ Learn how to use Contentful by keeping track of your favorite albums per month. 
 
 ## Example Demo
 
-### [https://a-year-in-music-workshop.vercel.app/](https://year-in-music-contentful.vercel.app/)
+### [https://year-in-music-contentful.vercel.app/](https://year-in-music-contentful.vercel.app/)
 
 ## Getting Started
 
