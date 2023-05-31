@@ -15,7 +15,7 @@ export default function PostHeader({ title, coverImage, date, artist, category, 
           <PostTitle>{title} ({date})</PostTitle>
           <p className="album-page-subtitle">{artist}</p>
           <ul className="music-labels">
-            {category?.map((item) => <li className="type" key={item}>{item}</li>)}
+            {category?.map((item) => <li className="category" key={item}>{item}</li>)}
           </ul>
         </div>
       </div>
