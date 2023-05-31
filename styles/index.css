@@ -171,18 +171,34 @@ h1 {
   border: 3px solid var(--primary-text-color);
 }
 
-.type {
+.category {
+  background-color: #6D7FDE;
+}
+
+.category:first-child {
   background-color: #FFF73E;
 }
 
-.language {
-  background-color: #6D7FDE;
+.category:nth-child(2n) {
+  background-color: #ff433e;
+}
+
+.category:nth-child(3n) {
+  background-color: #6DDE9A;
+}
+
+.category:nth-child(4n) {
+  background-color: #d16dde;
 }
 
 /* PAGE */
 
 .page {
   background-color: var(--body-background-color);
+}
+
+.page h2 {
+  margin: 0;
 }
 
 .page article {
