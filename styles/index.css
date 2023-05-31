@@ -130,6 +130,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
+  align-items: stretch;
 }
 
 .home-albums .album {

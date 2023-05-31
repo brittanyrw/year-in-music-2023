@@ -85,11 +85,10 @@ Once the content model is saved, add these fields (you don't have to modify the 
 - `Album Cover` - **Media** field (type **one file**). 
 - `Release Year` - **Number** field
 - `Artist Name` - **Text** field (type **short text**). 
-- `Favorite Month Year` - **Date** field
+- `Favorite Month` - **Date** field
 - `Thoughts` - **Rich text** field
-- `Mood` - **Text** field (type **short text list**). 
-- `Type` - **Text** field (type **short text list**).
-- `Language` - **Text** field (type **short text list**).
+- `Category` - **Text** field (type **short text list**). 
+- `Favorite` - **Boolean** field. 
 
 Save the content type and continue.
 
