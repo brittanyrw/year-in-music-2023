@@ -343,9 +343,11 @@ footer {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   .album-container {
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   .album-page-header {
     justify-content: flex-start;
