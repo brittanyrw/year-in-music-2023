@@ -5,7 +5,7 @@ const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
 ];
 
-export default function PostHeader({ title, coverImage, date, artist, category, language }) {
+export default function PostHeader({ title, coverImage, date, artist, category }) {
   return (
     <>
       <div className="album-page-header">

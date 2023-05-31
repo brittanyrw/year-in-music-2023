@@ -217,6 +217,16 @@ h1 {
   color: var(--primary-text-color);
 }
 
+.favorite-song {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.favorite-song::before {
+  content: "♫";
+  padding-right: 5px;
+}
+
 .page-content {
   max-width: 1400px;
   margin: 20px auto;
